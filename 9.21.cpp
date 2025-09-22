@@ -12,7 +12,7 @@ void menu()
 	printf("***************\n");
 }
 
-void game()
+void game()                           
 {
 	int guess;
 	int ret = rand() % 100 + 1;
@@ -31,7 +31,7 @@ void game()
 		}
 		else
 		{
-			printf("猜对了！");
+			printf("猜对了！\n");
 			break;
 		}
 	}
